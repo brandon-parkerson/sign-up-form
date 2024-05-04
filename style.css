@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+}
 
 @font-face {
     font-family: myFont;
@@ -12,7 +15,7 @@
 
 .plant {
     height: 100vh;
-    
+    width: 35vw;
     position: relative;
 }
 
@@ -31,11 +34,12 @@
     height: 150px;
     position: absolute;
     bottom: 750px;
-    width: 645.56px;
+    width: 35vw;
     margin-bottom: -200px;
     text-align: center;
     font-family: myfont;
     font-size: 80px;
+    display: flex;
 }
 
 .odin-text {
@@ -45,4 +49,16 @@
     bottom: 579px;
     left: 250px;
     color: white;
+    display: flex;
+}
+
+.text-header {
+    position: absolute;
+    width: 37%;
+    left: 750px;
+    top: 160px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
 }
