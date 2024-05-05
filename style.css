@@ -68,8 +68,106 @@ body {
     top: 40px;
 }
 
+.info {
+    position: absolute;
+    top: 500px;
+    left: 760px;
+    width: 700px;
+    
+}
+
 .do {
     position: relative;
-    top: 150px;
-    color: rgb(43, 43, 43);
+    bottom: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
 }
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+input, label {
+    display: block;
+    letter-spacing: 2px;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+input:invalid{
+    border: 2px solid red;
+    outline: none;
+    
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-container, .phone-container {
+    display: block;
+}
+
+.password {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.first-pass, .comfirm-pass {
+    display: block;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: 1px solid #596D48;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+.already, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+

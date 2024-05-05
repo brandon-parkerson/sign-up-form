@@ -16,7 +16,46 @@
             Sign up <i>now</i> to get started.
         </p>
         <p class="know">You <i>know</i> you want to.</p>
-        <p class="do">Let's do this!</p>
+        
+    </div>
+    <div class="info">
+        <h2 class="do">Let's do this!</h2>
+        <form action="post">
+            <div class="name">
+                <div class="first">
+                    <label for="first-name" class="first-name-label">First Name</label>
+                    <input type="text" id="first-name">
+                </div>
+                <div class="last">
+                    <label for="last-name" class="last-name-label">Last Name</label>
+                    <input type="text" id="last-name">
+                </div>
+            </div>
+            <div class="contact">
+                
+                <div class="email-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="phone-container">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+            </div>
+            <div class="password">
+                <div class="first-pass">
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" required>
+                </div>
+                <div class="comfirm-pass">
+                    <label for="comfirm">Comfirm Password</label>
+                    <input type="password" id="comfirm" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p class="already">Already have an account? <a href="#" class="link">Log in</a></p>
+        </form>
     </div>
     
 </body>
